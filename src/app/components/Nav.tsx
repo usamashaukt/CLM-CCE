@@ -76,7 +76,7 @@ export default function Nav() {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`md:hidden absolute top-full left-0 w-full bg-[#221F5A] transition-all duration-300 ease-in-out ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+      <div className={`md:hidden absolute left-0 w-full bg-[#221F5A] transition-all duration-300 ease-in-out z-50 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`} style={{ top: '136px' }}>
         <ul className="flex flex-col py-4">
           {['Home', 'About Us', 'Tyres', '4x4 Tyres', 'Car Tyres', 'All Seasonal Tyres', 'FAQs'].map((item) => (
             <li key={item} className="px-4 py-2">

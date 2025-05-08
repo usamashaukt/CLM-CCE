@@ -3,28 +3,28 @@ import React from "react";
 const steps = [
   {
     icon: (
-      <img src="/images/sections/howtobuy/tyreOnline.svg" alt="Select Your Tyres Online" className="w-12 h-12 mb-4" />
+      <img src="/images/sections/howtobuy/tyreOnline.svg" alt="Select Your Tyres Online" className="w-12 h-12 " />
     ),
     title: "Select Your Tyres Online",
     desc: "Find the right Tyres for vehicle using our easy online search tool",
   },
   {
     icon: (
-      <img src="/images/sections/howtobuy/appointment.svg" alt="Book Your Appointment" className="w-12 h-12 mb-4" />
+      <img src="/images/sections/howtobuy/appointment.svg" alt="Book Your Appointment" className="w-12 h-12 " />
     ),
     title: "Book Your Appointment",
     desc: "Choose convenient time for Tyre Fitting",
   },
   {
     icon: (
-      <img src="/images/sections/howtobuy/tyreFit.svg" alt="Visit Us or Use Mobile Tyre Fitting" className="w-12 h-12 mb-4" />
+      <img src="/images/sections/howtobuy/tyreFit.svg" alt="Visit Us or Use Mobile Tyre Fitting" className="w-12 h-12 " />
     ),
     title: "Visit Us or Use Mobile Tyre Fitting",
     desc: "Get expert Tyre fitting at home or at our workshop",
   },
   {
     icon: (
-      <img src="/images/sections/howtobuy/onlinePayment.svg" alt="Secure Online Payment" className="w-12 h-12 mb-4" />
+      <img src="/images/sections/howtobuy/onlinePayment.svg" alt="Secure Online Payment" className="w-12 h-12 " />
     ),
     title: "Secure Online Payment",
     desc: "Pay through the latest in retail safety protocols to safeguard your banking or personal data in our system",
@@ -44,8 +44,8 @@ const HowToBuySection: React.FC = () => (
           {steps.map((step, idx) => (
             <React.Fragment key={step.title}>
               <div className="bg-white shadow-md flex flex-col items-center text-center p-8 w-full max-w-xs mb-6 md:mb-0 h-[371px] mx-auto md:mx-6">
-                <div className="mb-4">{step.icon}</div>
-                <h3 className="text-xl font-bold text-[#23255a] mt-6 mb-4">{step.title}</h3>
+                <div className="pt-4">{step.icon}</div>
+                <h3 className="text-xl font-bold text-[#23255a] mt-4 mb-4">{step.title}</h3>
                 <p className="text-[#23255a] opacity-80 text-base max-w-[220px] mx-auto">{step.desc}</p>
               </div>
               {idx < steps.length - 1 && (

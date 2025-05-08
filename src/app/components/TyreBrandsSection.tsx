@@ -25,7 +25,7 @@ const TyreBrandsSection: React.FC = () => {
           modules={[Autoplay]}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
           spaceBetween={30}
-          slidesPerView={4}
+          slidesPerView={2}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 4 },
