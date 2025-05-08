@@ -18,7 +18,7 @@ const brands = [
 
 const TyreBrandsSection: React.FC = () => {
   return (
-    <section className="w-full bg-[#fafafa] min-h-[323px] flex flex-col justify-center" style={{height: '323px'}}>
+    <section className="w-full bg-[#ffffff] min-h-[323px] flex flex-col justify-center" style={{height: '323px'}}>
       <div className="max-w-full mx-auto px-4 py-6">
         {/* <h2 className="text-3xl md:text-4xl font-bold text-[#23255a] mb-8">Tyre Brands</h2> */}
         <Swiper
@@ -27,7 +27,7 @@ const TyreBrandsSection: React.FC = () => {
           spaceBetween={30}
           slidesPerView={4}
           breakpoints={{
-            640: { slidesPerView: 3 },
+            640: { slidesPerView: 1 },
             768: { slidesPerView: 4 },
             1024: { slidesPerView: 6 },
           }}

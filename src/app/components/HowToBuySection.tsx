@@ -34,7 +34,7 @@ const steps = [
 const HowToBuySection: React.FC = () => (
   <section className="pt-12 bg-[#fafafa]">
     <div className="max-w-7xl mx-auto px-4">
-      <h2 className="text-3xl md:text-4xl font-bold text-[#23255a] mb-8">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-8">
         How to Buy Tyres From Us?
       </h2>
     </div>

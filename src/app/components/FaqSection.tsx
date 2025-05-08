@@ -16,7 +16,7 @@ const FaqSection: React.FC = () => {
   return (
     <section className="py-16 bg-[#fafafa]">
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#23255a] mb-10">Tyres: Frequently Asked Questions</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-10">Tyres: Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqs.map((faq, idx) => (
             <div
@@ -27,7 +27,7 @@ const FaqSection: React.FC = () => {
                 className="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-[#23255a] focus:outline-none"
                 onClick={() => setOpenIdx(openIdx === idx ? null : idx)}
               >
-                <span>{faq.question}</span>
+                <span className="text-1xl font-bold">{faq.question}</span>
                 <span className="ml-2">
                   <Image
                     src="/images/sections/faq/chevDown.svg"

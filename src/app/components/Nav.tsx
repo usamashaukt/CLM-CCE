@@ -24,11 +24,11 @@ export default function Nav() {
       }}>
       15% OFF on all tyres
     </div>
-    <nav className="bg-[#221F5A] w-full flex items-center justify-between px-4 md:px-8 py-3 relative" style={{ fontFamily: 'Racing Sans One, sans-serif', fontWeight: 400, fontSize: '20px', lineHeight: '100%', letterSpacing: 0, color: '#D1D2D4', fontStyle: 'italic' }}>
+    <nav className="bg-[#221F5A] w-full flex items-center justify-between px-4 md:px-8 h-[136px] relative" style={{ fontFamily: 'Racing Sans One, sans-serif', fontWeight: 400, fontSize: '20px', lineHeight: '100%', letterSpacing: 0, color: '#D1D2D4', fontStyle: 'italic' }}>
       {/* Logo */}
       <div className="flex items-center">
     
-        <img src="/images/logos/tyrelogo.svg" alt="logo" className="h-8 md:h-10" />
+        <img src="/images/logos/tyrelogo.svg" alt="logo" className="md:h-10" />
       </div>
 
       {/* Mobile Menu Button */}

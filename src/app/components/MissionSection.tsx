@@ -6,7 +6,7 @@ const MissionSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-10">
         {/* Left: Title & Description */}
         <div className="flex-1 max-w-xl">
-          <h2 className="text-4xl font-bold text-[#23255a] mb-4">Our Mission</h2>
+          <h2 className="text-4xl font-bold text-[#000000] mb-4">Our Mission</h2>
           <p className="text-[#23255a] text-lg leading-relaxed">
             We're an established local business offering a drive in and an internet booking service. You don't pay online, just place your booking and you'll be able to select a date to come in and have your tyres fitted and make a payment in the normal way.We're an established local business offering a drive in and an internet booking service. You don't pay online, just place your booking and you'll be able to select a date to come in and have your tyres fitted and make a payment in the normal way. We're an established local business offering a drive in and an internet booking service. You don't pay online, just place your booking and you'll be able to select a date to come in and have your tyres fitted and make a payment in the normal way.We're an established local business offering a drive in and an internet booking service. You don't pay online, just place your booking and you'll be able to select a date to come in and have your tyres fitted and make a payment in the normal way.
           </p>

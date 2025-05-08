@@ -39,14 +39,14 @@ const WhyChooseUsSection: React.FC = () => {
   return (
     <section className="py-16 bg-[#fafafa]">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#23255a] mb-10">Why Choose Us?</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#000000] mb-10">Why Choose Us?</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-0">
           {cards.map((card, idx) => (
             <div
               key={card.title}
               className={[
                 "group bg-white flex flex-col items-center  text-center p-8 transition-all duration-300 ease-in-out cursor-pointer h-full relative border-2 border-[#E3E41A] rounded-2xl z-10 hover:bg-[#E3E41A] hover:shadow-2xl hover:-translate-y-2 hover:z-30 hover:rounded-2xl",
-                idx !== 0 ? "-ml-6" : ""
+                idx !== 0 ? "md:-ml-6" : ""
               ].join(" ")}
             >
               <div className="mb-4 group-hover:text-[#23255a] text-[#23255a]">{card.icon}</div>

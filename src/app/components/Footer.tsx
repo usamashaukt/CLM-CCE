@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (<>
-    <footer className="bg-[url('/images/footer/footer-bg.png')] bg-cover bg-center relative text-white font-montserrat pt-10 z-0">
+    <footer className="bg-[url('/images/footer/footer-bg.png')] bg-cover bg-center relative text-white font-montserrat pt-10 z-0 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-[#23255a] to-[#23255a]/80 z-0"></div>
       <div className="relative z-10">
         <div className="max-w-7xl mx-auto px-4">

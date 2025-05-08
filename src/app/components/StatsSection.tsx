@@ -22,12 +22,12 @@ const StatItem: React.FC<StatItemProps> = ({ icon, count, label, bgColor, bgImag
 
   return (
     <div 
-      className={`flex-1 flex flex-col items-center justify-center p-6 text-center ${textColor}`}
+      className={`flex-1 flex flex-col items-center justify-center p-4 md:p-6 text-center ${textColor}`}
       style={itemStyle}
     >
-      <img src={icon} alt={label} className="w-16 h-16 mb-4" />
-      <p className="text-4xl font-bold mb-1">{count}</p>
-      <p className="text-lg">{label}</p>
+      <img src={icon} alt={label} className="w-12 h-12 md:w-16 md:h-16 mb-4" />
+      <p className="text-2xl md:text-4xl font-bold mb-1">{count}</p>
+      <p className="text-base md:text-lg">{label}</p>
     </div>
   );
 };
@@ -42,9 +42,10 @@ const StatsSection: React.FC = () => {
 
   return (
     <section
-      className="flex w-full"
+      className="flex flex-col md:flex-row w-full"
       style={{
-        height: "435px",
+        minHeight: "350px",
+        height: "auto",
         backgroundImage: "url('/images/statsection/statsBg.svg')",
         backgroundSize: "cover",
         backgroundPosition: "center"
