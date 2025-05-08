@@ -18,10 +18,6 @@ export default function Nav() {
         lineHeight: '100%',
         letterSpacing: 0,
         color: 'black',
-        height: '73px',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
       }}
     >
       15% OFF on all tyres
@@ -30,7 +26,7 @@ export default function Nav() {
       {/* Logo */}
       <div className="flex items-center">
     
-        <img src="/images/logos/tyrelogo.svg" alt="logo" className="h-8 md:h-10" width={"auto"} height={32} loading="lazy" />
+        <img src="/images/logos/tyrelogo.svg" alt="logo" className="h-8 md:h-10" />
       </div>
 
       {/* Mobile Menu Button */}

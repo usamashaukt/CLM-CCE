@@ -2,7 +2,7 @@ import React from "react";
 
 const MissionSection: React.FC = () => {
   return (
-    <section className="max-w-full bg-white mx-auto px-4 md:px-12 lg:px-20 py-12 flex flex-col md:flex-row gap-10 items-start">
+    <section className="max-w-7xl  bg-white mx-auto px-4 md:px-12 lg:px-20 py-12 flex flex-col md:flex-row gap-10 items-start">
       {/* Left: Title & Description */}
       <div className="flex-1">
         <h2 className="text-4xl font-bold text-[#23255a] mb-4">Our Mission</h2>

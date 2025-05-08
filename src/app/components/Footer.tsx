@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-7 ">
             {/* Left: Logo and GCR */}
             <div className="flex flex-col gap-5 md:w-1/4">
-              <img src="./images/footer/footer-logo.svg" alt="" className="w-32 mb-2" width={128} height={32} />
-              <img src="./images/footer/gcr.svg" alt="Google Reviews" className="w-28 mb-2" width={112} height={32} loading="lazy" />
+              <img src="./images/footer/footer-logo.svg" alt="" className="w-32 mb-2" />
+              <img src="./images/footer/gcr.svg" alt="Google Reviews" className="w-28 mb-2" />
             </div>
             {/* Center: Tyre and Manufacturers Lists */}
             <div className="flex flex-1 justify-between gap-8">
@@ -67,24 +67,24 @@ const Footer: React.FC = () => {
             <div className="flex flex-col md:flex-row justify-start items-center py-4 text-xs md:text-sm gap-[65px]">
               {/* Payment Methods */}
               <div className="grid grid-cols-2 gap-x-6 gap-y-2 w-fit md:w-auto justify-center md:justify-start">
-                <img src="./images/footer/paypal.svg" alt="PayPal" className="w-20 h-8 object-contain" width={80} height={32} loading="lazy" />
-                <img src="./images/footer/gpay.svg" alt="GPay" className="w-20 h-8 object-contain" width={80} height={32} loading="lazy" />
-                <img src="./images/footer/apay.svg" alt="Apple Pay" className="w-20 h-8 object-contain" width={80} height={32} loading="lazy" />
-                <img src="./images/footer/stripe.svg" alt="Stripe" className="w-20 h-8 object-contain" width={80} height={32} loading="lazy" />
+                <img src="./images/footer/paypal.svg" alt="PayPal" className="w-20 h-8 object-contain" />
+                <img src="./images/footer/gpay.svg" alt="GPay" className="w-20 h-8 object-contain" />
+                <img src="./images/footer/apay.svg" alt="Apple Pay" className="w-20 h-8 object-contain" />
+                <img src="./images/footer/stripe.svg" alt="Stripe" className="w-20 h-8 object-contain" />
               </div>
 
               {/* Contact Information */}
               <div className="flex flex-col md:flex-row items-center gap-6 w-full md:w-auto justify-center mt-[45px]">
-                <span className="flex items-center gap-2 text-white font-semibold"><img src="./images/footer/location.svg" alt="Location" className="w-5 h-5 inline" width={20} height={20} loading="lazy" /> London Eye, London</span>
-                <span className="flex items-center gap-2 text-white font-semibold"><img src="./images/footer/tel.svg" alt="Telephone" className="w-5 h-5 inline" width={20} height={20} loading="lazy" /> +852 01234567</span>
+                <span className="flex items-center gap-2 text-white font-semibold"><img src="./images/footer/location.svg" alt="Location" className="w-5 h-5 inline" /> London Eye, London</span>
+                <span className="flex items-center gap-2 text-white font-semibold"><img src="./images/footer/tel.svg" alt="Telephone" className="w-5 h-5 inline" /> +852 01234567</span>
                 <span className="flex items-center gap-2 text-white font-semibold"><span className="text-yellow-300 text-lg">&#9993;</span> mail@compasstaxi.com</span>
               </div>
 
               {/* Social Icons */}
               <div className="flex items-center gap-6 w-full md:w-auto justify-center md:justify-end mt-[45px]">
-                <a href="#" className="hover:opacity-70 transition"><img src="./images/footer/fb.svg" alt="Facebook" className="w-6 h-6" width={24} height={24} loading="lazy" /></a>
-                <a href="#" className="hover:opacity-70 transition"><img src="./images/footer/linkedin.svg" alt="LinkedIn" className="w-6 h-6" width={24} height={24} loading="lazy" /></a>
-                <a href="#" className="hover:opacity-70 transition"><img src="./images/footer/insta.svg" alt="Instagram" className="w-6 h-6" width={24} height={24} loading="lazy" /></a>
+                <a href="#" className="hover:opacity-70 transition"><img src="./images/footer/fb.svg" alt="Facebook" className="w-6 h-6" /></a>
+                <a href="#" className="hover:opacity-70 transition"><img src="./images/footer/linkedin.svg" alt="LinkedIn" className="w-6 h-6" /></a>
+                <a href="#" className="hover:opacity-70 transition"><img src="./images/footer/insta.svg" alt="Instagram" className="w-6 h-6" /></a>
               </div>
             </div>
             {/* Yellow line */}
