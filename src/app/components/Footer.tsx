@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             {/* Center: Tyre and Manufacturers Lists */}
             <div className="flex flex-1 justify-between gap-8">
               <div>
-                <h4 className="text-yellow-300 font-semibold mb-2">Tyre</h4>
+                <h4 className="text-[#E3E41A] font-semibold mb-2">Tyre</h4>
                 <ul className="space-y-1 text-sm">
                   <li>Tyre online</li>
                   <li>Car tyre</li>
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="text-yellow-300 font-semibold mb-2">Tyre</h4>
+                <h4 className="text-[#E3E41A] font-semibold mb-2">Tyre</h4>
                 <ul className="space-y-1 text-sm">
                   <li>Tyre online</li>
                   <li>Car tyre</li>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="text-yellow-300 font-semibold mb-2">Manufacturers</h4>
+                <h4 className="text-[#E3E41A] font-semibold mb-2">Manufacturers</h4>
                 <ul className="space-y-1 text-sm">
                   <li>Kumho</li>
                   <li>Michelin</li>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                 </ul>
               </div>
               <div>
-                <h4 className="text-yellow-300 font-semibold mb-2">Manufacturers</h4>
+                <h4 className="text-[#E3E41A] font-semibold mb-2">Manufacturers</h4>
                 <ul className="space-y-1 text-sm">
                   <li>Kumho</li>
                   <li>Michelin</li>
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
               <div className="flex flex-col md:flex-row items-center gap-6 w-full md:w-auto justify-center mt-[45px]">
                 <span className="flex items-center gap-2 text-white font-semibold"><img src="./images/footer/location.svg" alt="Location" className="w-5 h-5 inline" /> London Eye, London</span>
                 <span className="flex items-center gap-2 text-white font-semibold"><img src="./images/footer/tel.svg" alt="Telephone" className="w-5 h-5 inline" /> +852 01234567</span>
-                <span className="flex items-center gap-2 text-white font-semibold"><span className="text-yellow-300 text-lg">&#9993;</span> mail@compasstaxi.com</span>
+                <span className="flex items-center gap-2 text-white font-semibold"><img src="/images/footer/mail.svg" alt="Mail" className="w-5 h-5 inline" /> mail@compasstaxi.com</span>
               </div>
 
               {/* Social Icons */}
@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
     </footer>
-    <div className="w-full" style={{ height: '43px' , backgroundColor: '#fde047' }}></div>
+    <div className="w-full" style={{ height: '43px' , backgroundColor: '#e3e41a' }}></div>
   </>);
 };
 

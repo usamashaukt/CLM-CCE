@@ -3,7 +3,7 @@ import React from "react";
 const cards = [
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" /><path d="M24 24l10-10" /><circle cx="24" cy="24" r="8" /></svg>
+      <img src="/images/sections/whyChooseUs/expertTyre.svg" alt="Expert Tyre Fitting Services" className="w-12 h-12 mb-4" />
     ),
     title: "Expert Tyre Fitting Services",
     desc: "Our skilled technicians ensure precise and safe Tyre installation",
@@ -11,7 +11,7 @@ const cards = [
   },
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48"><rect x="12" y="16" width="24" height="16" rx="4" /><circle cx="24" cy="24" r="8" /></svg>
+      <img src="/images/sections/whyChooseUs/extensiveTyre.svg" alt="Extensive Tyre Range" className="w-12 h-12 mb-4" />
     ),
     title: "Extensive Tyre Range",
     desc: "From Budget Friendly to Premium Tyre Brands we stock tyres for all vehicles",
@@ -19,7 +19,7 @@ const cards = [
   },
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48"><rect x="12" y="16" width="24" height="16" rx="4" /><path d="M16 24h16" /><path d="M20 20v8" /><path d="M28 20v8" /></svg>
+      <img src="/images/sections/whyChooseUs/pricing.svg" alt="Fair & Competitive Pricing" className="w-12 h-12 mb-4" />
     ),
     title: "Fair & Competitive Pricing",
     desc: "Get the best deals for vehicle Tyres without compromising quality",
@@ -27,7 +27,7 @@ const cards = [
   },
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48"><circle cx="24" cy="20" r="6" /><path d="M12 36c0-6.627 5.373-12 12-12s12 5.373 12 12" /><path d="M20 32h8" /><path d="M24 28v8" /></svg>
+      <img src="/images/sections/whyChooseUs/customerSatis.svg" alt="Customer Satisfaction Guaranteed" className="w-12 h-12 mb-4" />
     ),
     title: "Customer Satisfaction Guaranteed",
     desc: "We are committed to providing the best customer service",

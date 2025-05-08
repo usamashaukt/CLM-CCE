@@ -3,40 +3,28 @@ import React from "react";
 const steps = [
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48">
-        <rect x="12" y="12" width="24" height="24" rx="4" />
-        <circle cx="24" cy="24" r="8" />
-      </svg>
+      <img src="/images/sections/howtobuy/tyreOnline.svg" alt="Select Your Tyres Online" className="w-12 h-12 mb-4" />
     ),
     title: "Select Your Tyres Online",
     desc: "Find the right Tyres for vehicle using our easy online search tool",
   },
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48">
-        <rect x="12" y="16" width="24" height="16" rx="2" />
-        <circle cx="32" cy="20" r="2" />
-      </svg>
+      <img src="/images/sections/howtobuy/appointment.svg" alt="Book Your Appointment" className="w-12 h-12 mb-4" />
     ),
     title: "Book Your Appointment",
     desc: "Choose convenient time for Tyre Fitting",
   },
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48">
-        <rect x="10" y="20" width="28" height="12" rx="3" />
-        <rect x="18" y="12" width="12" height="8" rx="2" />
-      </svg>
+      <img src="/images/sections/howtobuy/tyreFit.svg" alt="Visit Us or Use Mobile Tyre Fitting" className="w-12 h-12 mb-4" />
     ),
     title: "Visit Us or Use Mobile Tyre Fitting",
     desc: "Get expert Tyre fitting at home or at our workshop",
   },
   {
     icon: (
-      <svg width="48" height="48" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 48 48">
-        <rect x="14" y="14" width="20" height="28" rx="4" />
-        <circle cx="24" cy="28" r="4" />
-      </svg>
+      <img src="/images/sections/howtobuy/onlinePayment.svg" alt="Secure Online Payment" className="w-12 h-12 mb-4" />
     ),
     title: "Secure Online Payment",
     desc: "Pay through the latest in retail safety protocols to safeguard your banking or personal data in our system",
@@ -62,7 +50,7 @@ const HowToBuySection: React.FC = () => (
               </div>
               {idx < steps.length - 1 && (
                 <div className="hidden md:flex items-center">
-                  <img src="/images/sections/howtobuy/chevRight.svg" alt="Arrow right" width={32} height={32} className="mx-2 md:mx-4" />
+                  <img src="/images/sections/howtobuy/chevRight.svg" alt="Arrow right" width={200} height={200} className=" " />
                 </div>
               )}
             </React.Fragment>

@@ -1,4 +1,9 @@
+"use client";
 import React from "react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+import 'swiper/css/autoplay';
 
 const brands = [
   { src: "/images/tyreBrands/brand1.svg", alt: "BFGoodrich" },
@@ -13,35 +18,33 @@ const brands = [
 
 const TyreBrandsSection: React.FC = () => {
   return (
-    <section className="w-full bg-[#E3E41A] min-h-[323px] flex flex-col justify-center" style={{height: '323px'}}>
-      <div className="max-w-7xl mx-auto px-4 py-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#23255a] mb-8">Tyre Brands</h2>
-        <div className="flex flex-col gap-8">
-          {/* First row: 6 brands */}
-          <div className="flex flex-wrap justify-between items-center gap-x-8">
-            {brands.slice(0, 6).map((brand) => (
+    <section className="w-full bg-[#fafafa] min-h-[323px] flex flex-col justify-center" style={{height: '323px'}}>
+      <div className="max-w-full mx-auto px-4 py-6">
+        {/* <h2 className="text-3xl md:text-4xl font-bold text-[#23255a] mb-8">Tyre Brands</h2> */}
+        <Swiper
+          modules={[Autoplay]}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
+          spaceBetween={30}
+          slidesPerView={4}
+          breakpoints={{
+            640: { slidesPerView: 3 },
+            768: { slidesPerView: 4 },
+            1024: { slidesPerView: 6 },
+          }}
+          loop={true}
+          className="w-full flex justify-center mx-auto"
+        >
+          {brands.map((brand) => (
+            <SwiperSlide key={brand.alt} className="flex justify-center">
               <img
-                key={brand.alt}
                 src={brand.src}
                 alt={brand.alt}
                 className="h-12 md:h-16 object-contain"
                 style={{ maxWidth: '180px' }}
               />
-            ))}
-          </div>
-          {/* Second row: 2 brands, centered */}
-          <div className="flex justify-start items-center gap-x-8">
-            {brands.slice(6).map((brand) => (
-              <img
-                key={brand.alt}
-                src={brand.src}
-                alt={brand.alt}
-                className="h-12 md:h-16 object-contain"
-                style={{ maxWidth: '180px' }}
-              />
-            ))}
-          </div>
-        </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
   );

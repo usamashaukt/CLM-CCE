@@ -45,7 +45,7 @@ const StatsSection: React.FC = () => {
       className="flex w-full"
       style={{
         height: "435px",
-        backgroundImage: "url('/images/statsection/statsBG.svg')",
+        backgroundImage: "url('/images/statsection/statsBg.svg')",
         backgroundSize: "cover",
         backgroundPosition: "center"
       }}
