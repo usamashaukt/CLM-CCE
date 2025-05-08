@@ -11,7 +11,7 @@ const MissionSection: React.FC = () => {
         </p>
       </div>
       {/* Right: Image Placeholder */}
-      <div className="flex-1 flex justify-center items-center">
+      <div className="flex-1 flex justify-end items-center">
         <div className="w-[350px] h-[350px] bg-gray-300 flex items-center justify-center text-2xl font-bold text-center text-black">
           Lauren's<br />Image
         </div>

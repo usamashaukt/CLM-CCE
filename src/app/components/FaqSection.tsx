@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 
 const faqs = [
   { question: "What should my tyre pressure be?", answer: "Check your vehicle manual or the sticker inside the driver's door for recommended tyre pressures." },
@@ -28,9 +29,13 @@ const FaqSection: React.FC = () => {
               >
                 <span>{faq.question}</span>
                 <span className="ml-2">
-                  <svg width="20" height="20" fill="none" stroke="#23255a" strokeWidth="2" viewBox="0 0 24 24">
-                    <path d={openIdx === idx ? "M6 15l6-6 6 6" : "M6 9l6 6 6-6"} />
-                  </svg>
+                  <Image
+                    src="/images/sections/faq/chevDown.svg"
+                    alt="chevron down"
+                    width={20}
+                    height={20}
+                    className={`transition-transform duration-200 ${openIdx === idx ? 'rotate-180' : ''}`}
+                  />
                 </span>
               </button>
               {openIdx === idx && (

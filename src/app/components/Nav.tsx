@@ -8,7 +8,24 @@ export default function Nav() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (
+  return (<>
+    <div
+      className="w-full bg-yellow-300 text-center py-2"
+      style={{
+        fontFamily: 'Cardo, serif',
+        fontWeight: 700,
+        fontSize: '30px',
+        lineHeight: '100%',
+        letterSpacing: 0,
+        color: 'black',
+        height: '73px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
+      15% OFF on all tyres
+    </div>
     <nav className="bg-[#221F5A] w-full flex items-center justify-between px-4 md:px-8 py-3 relative" style={{ fontFamily: 'Racing Sans One, sans-serif', fontWeight: 400, fontSize: '20px', lineHeight: '100%', letterSpacing: 0, color: '#D1D2D4', fontStyle: 'italic' }}>
       {/* Logo */}
       <div className="flex items-center">
@@ -87,6 +104,6 @@ export default function Nav() {
           </li>
         </ul>
       </div>
-    </nav>
+    </nav></>
   );
 } 
