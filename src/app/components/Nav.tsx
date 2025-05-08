@@ -28,7 +28,7 @@ export default function Nav() {
       {/* Logo */}
       <div className="flex items-center">
     
-        <img src="/images/logos/tyrelogo.svg" alt="logo" className="md:h-10" />
+        <img src="/images/logos/tyrelogo.svg" alt="logo"  />
       </div>
 
       {/* Mobile Menu Button */}
