@@ -30,7 +30,7 @@ export default function Nav() {
       {/* Logo */}
       <div className="flex items-center">
     
-        <img src="/images/logos/tyrelogo.svg" alt="logo" className="h-8 md:h-10" />
+        <img src="/images/logos/tyrelogo.svg" alt="logo" className="h-8 md:h-10" width={"auto"} height={32} loading="lazy" />
       </div>
 
       {/* Mobile Menu Button */}

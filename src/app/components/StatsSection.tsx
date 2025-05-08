@@ -25,7 +25,7 @@ const StatItem: React.FC<StatItemProps> = ({ icon, count, label, bgColor, bgImag
       className={`flex-1 flex flex-col items-center justify-center p-6 text-center ${textColor}`}
       style={itemStyle}
     >
-      <img src={icon} alt={label} className="w-16 h-16 mb-4" />
+      <img src={icon} alt={label} className="w-16 h-16 mb-4" width={64} height={64} loading="lazy" />
       <p className="text-4xl font-bold mb-1">{count}</p>
       <p className="text-lg">{label}</p>
     </div>
