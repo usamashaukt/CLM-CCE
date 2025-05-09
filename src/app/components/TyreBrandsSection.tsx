@@ -39,6 +39,7 @@ const TyreBrandsSection: React.FC = () => {
               <img
                 src={brand.src}
                 alt={brand.alt}
+                loading="lazy"
                 className="h-12 md:h-16 object-contain"
                 style={{ maxWidth: '180px' }}
               />
