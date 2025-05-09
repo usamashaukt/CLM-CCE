@@ -35,9 +35,9 @@ const StatItem: React.FC<StatItemProps> = ({ icon, count, label, bgColor, bgImag
 const StatsSection: React.FC = () => {
   const statsData: StatItemProps[] = [
     { icon: "/images/statsection/tyre.svg", count: "100+", label: "Tyres Sold", bgColor: "#E3E41A", textColor: "text-[#23255a]" },
-    { icon: "/images/statsection/oil.svg", count: "200+", label: "Oil Changed", bgImage: "/images/sections/stats-bg-dark-1.png", textColor: "text-white" },
+    { icon: "/images/statsection/oil.svg", count: "200+", label: "Oil Changed", textColor: "text-white" },
     { icon: "/images/statsection/battery.svg", count: "50+", label: "Battery", bgColor: "#E3E41A", textColor: "text-[#23255a]" },
-    { icon: "/images/statsection/brake.svg", count: "80+", label: "Brakes Fixed", bgImage: "/images/sections/stats-bg-dark-2.png", textColor: "text-white" },
+    { icon: "/images/statsection/brake.svg", count: "80+", label: "Brakes Fixed", textColor: "text-white" },
   ];
 
   return (
@@ -58,7 +58,6 @@ const StatsSection: React.FC = () => {
           count={stat.count}
           label={stat.label}
           bgColor={stat.bgColor}
-          bgImage={stat.bgImage}
           textColor={stat.textColor}
         />
       ))}
