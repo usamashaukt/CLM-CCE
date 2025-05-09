@@ -5,7 +5,7 @@ const HeroSection: React.FC = () => {
     <section 
       className="relative min-h-[80vh] flex items-center justify-center"
       style={{
-        backgroundImage: "url('/images/sections/herosection.svg')",
+        backgroundImage: "url('/images/sections/heroSection.webp')",
         backgroundSize: "cover",
         backgroundPosition: "top center",
         backgroundRepeat: "no-repeat"
