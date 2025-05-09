@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row gap-7 ">
             {/* Left: Logo and GCR */}
             <div className="flex flex-col gap-5 md:w-1/4">
-              <img src="./images/footer/footer-logo.svg" alt="" className="w-32 mb-2" />
-              <img src="./images/footer/gcr.svg" alt="Google Reviews" className="w-28 mb-2" />
+              <img src="./images/footer/footer-logo.svg" loading="lazy" alt="" className="w-32 mb-2" />
+              <img src="./images/footer/gcr.svg" loading="lazy" alt="Google Reviews" className="w-28 mb-2" />
             </div>
             {/* Center: Tyre and Manufacturers Lists */}
             <div className="flex flex-1 justify-between gap-8">
